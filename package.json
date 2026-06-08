@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "test": "npx playwright test",
+    "test:automation-bookstore": "npx playwright test tests/automation-bookstore.spec.js"
+  },
   "dependencies": {
     "@playwright/cli": "^0.1.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
   }
 }
